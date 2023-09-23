@@ -12,7 +12,11 @@ class Rectangle():
         return f'A rectangle with width {self.width} and height {self.height}'
     def verify_input(self):
         return self.width > 0 and self.height > 0
-
+    def area(self):
+        if not self.verfy_input():
+            return "Invalid input"
+        return self.width * self.height
+    
 
 
 
