@@ -10,16 +10,9 @@ class Rectangle():
         self.height=height
     def __str__(self):
         return f'A rectangle with width {self.width} and height {self.height}'
-    
+    def verify_input(self):
+        return self.width > 0 and self.height > 0
 
-
-    # Create the "verify_input" method
-    #
-    # It returns a boolean
-    #       True if the width and height are positive numbers
-    #       False otherwise
-
-    # YOUR CODE HERE
 
 
 
