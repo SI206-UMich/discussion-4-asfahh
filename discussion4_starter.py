@@ -19,7 +19,7 @@ class Rectangle():
     
 
 
-
+#yo mom
     # Create the "area" method
     #
     # It first verifies inputs and return "Invalid input" if they are invalid.
